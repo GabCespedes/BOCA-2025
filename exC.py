@@ -13,5 +13,7 @@ def energiaMinima(N: int) -> int:
 
     return dp[N]
 
-print(f"Entrada: 3 -> Saída: {energiaMinima(3)}")
-print(f"Entrada: 10 -> Saída: {energiaMinima(10)}")
+if __name__ == "__main__":
+    N = int(input())
+    resultado = energiaMinima(N)
+    print(f"{resultado}")
